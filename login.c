@@ -1,3 +1,31 @@
+# Sistema de Login em C
+
+Aplicação desenvolvida em linguagem C que simula um sistema de autenticação de usuário.
+
+## Funcionalidades
+- Validação de usuário e senha
+- Controle de tentativas de acesso
+- Bloqueio após múltiplas tentativas incorretas
+
+## Tecnologias
+- Linguagem C
+
+## Como executar
+
+Compile:
+gcc login.c -o login
+
+Execute:
+./login
+
+## Autor
+Esther Caetano
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 #include <stdio.h>
 #include <string.h>
 
@@ -33,3 +61,4 @@ int main() {
 
     return 0;
 }
+
